@@ -1,0 +1,109 @@
+body{
+	background-image:url(https://www.artofliving.org/sites/www.artofliving.org/files/Blog_34_yoga-background.jpg);
+	background-size: cover; 
+}
+video{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%); 
+}
+
+ 
+.content { 
+	max-width: 1200px;
+	margin: auto;
+}
+
+
+.marquee{
+	position: absolute;
+	top: 15%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	font-family: 'DM Serif Display', serif;
+
+}
+
+ul{
+	list-style-type: :none;
+	float: left;	
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid trasparent;
+	border-radius: 10px;
+	transition: 1s all ease;
+	font-family: 'Indie Flower', cursive;
+	font-size: 15px;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+	transform: scale(1.1);
+
+}
+
+ul li.active a{
+	background-color: white;
+	color: black;
+
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	z-index: 2;
+}
+
+
+
+
+.heading{
+	font-family: 'DM Serif Display', serif;
+	font-size:45px;
+	transition: 0.6s all ease;
+	color: black;
+	cursor: pointer;
+	width: auto;
+	height: auto;
+}
+
+.button{
+	position: absolute;
+	top: 68%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	z-index: 2;
+}
+
+.btn{
+	text-decoration: none;
+	border: 1px solid transparent;
+	border-radius: 20px;
+	padding: 10px 30px; 
+	color: black;
+	transition: all 0.5s ease;
+	font-size: 30px;
+	font-family: 'Bree Serif', serif;
+}
+
+.btn:hover{
+	color:white;
+	background-color: black;
+	transform: scale(1.1);
+}
+
+
+
+

@@ -1,0 +1,89 @@
+body{
+	background-color: black;
+	margin:0px;
+
+}
+.container{
+	background-image: url(https://www.ocregister.com/wp-content/uploads/migration/lrb/lrb9bh-lrb98tyogaonsetjpg.jpg);
+	background-size: cover;
+	border:0.1px solid white;
+	border-radius: 50px;
+	width:100%;
+	height:50px;
+	padding: 5px;
+}
+
+
+ul{
+	list-style-type: :none;
+	float: left;	
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid trasparent;
+	border-radius: 10px;
+	transition: 1s all ease;
+	font-family: 'Indie Flower', cursive;
+	font-size: 15px;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+	transform: scale(1.1);
+
+}
+
+ul li.active a{
+	background-color: white;
+	color: black;
+}
+
+
+
+h1{
+	border:2px solid white;
+	 color: black;
+	 text-align: center;
+	 padding: 40px;
+	 background-image: url(https://images.squarespace-cdn.com/content/v1/575f3d0ba3360c785eaac80f/1550198437614-YRQS596ENLKIW1H9ZICX/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UbeDbaZv1s3QfpIA4TYnL5Qao8BosUKjCVjCf8TKewJIH3bqxw7fF48mhrq5Ulr0Hg/beer+yoga+header+%284%29.png?format=2500w);
+	background-size: cover;	 
+
+}
+
+.header{
+	width: 100%;
+	height:auto;
+
+}
+
+.txt{
+	
+	font-size: 60px;
+
+}
+
+
+.videos{
+	margin-top: 10%;	
+	margin-right: auto;
+	display: grid;
+	grid-column: 1fr 1fr 1fr;
+	padding: 10px;
+}
+
+.videos iframe{
+	border: solid 1px white;
+	margin: 8px;
+	width:100%;
+	height: 620px;
+}
+
+
